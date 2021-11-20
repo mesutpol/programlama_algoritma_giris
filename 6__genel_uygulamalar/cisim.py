@@ -1,9 +1,9 @@
 import tkinter
 def hesap():
     
-   m=int(input("cismin kütlesi"))
-   v=int(input("cismin hızı"))
-   h=int(input("cismin yerden yüksekliği"))
+   m=int(E1.get())
+   v=int(E2.get())
+   h=int(E3.get())
    g=10
    Ep=m*g*h
    Ek=1/2*m*v**2
