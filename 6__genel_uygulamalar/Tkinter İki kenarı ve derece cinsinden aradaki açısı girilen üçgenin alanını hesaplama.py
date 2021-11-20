@@ -6,9 +6,9 @@ def hesap():
     pi=3.14
     import math
     alan=a*b*math.sin(aci*pi/180)/2
-    
-    etiket4.config(text=str(alan))
-    
+    from tkinter import messagebox
+    messagebox.showinfo("Üçgenin alanı",alan)
+        
 root=tkinter.Tk()
 
 etiket1=tkinter.Label(root,text="a kenarının değerini giriniz")
@@ -19,9 +19,6 @@ etiket2.grid(row=2,column=0,padx=110,pady=10)
 
 etiket3=tkinter.Label(root,text="İkisinin arasındaki açının değerini giriniz")
 etiket3.grid(row=3,column=0,padx=110,pady=10)
-
-etiket4=tkinter.Label(root,text="Sonuç")
-etiket4.grid(row=4,column=0,padx=110,pady=10)
 
 E1=tkinter.Entry(root,bd=2)
 E1.grid(row=3,column=1,padx=110,pady=3)
