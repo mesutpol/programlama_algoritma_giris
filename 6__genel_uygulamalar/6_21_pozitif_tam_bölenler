@@ -1,4 +1,0 @@
-#Tam bölenler
->>> Traceback (most recent call last):
-  File "./prog.py", line 1, in <module>
-EOFError: EOF when reading a line
