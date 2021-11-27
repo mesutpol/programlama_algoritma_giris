@@ -32,3 +32,5 @@ E3.grid(row=1,column=1,padx=110,pady=3)
 
 button1=tkinter.Button(root,text="Hesapla",width=20,command=hesap)
 button1.grid(padx=110,pady=70)
+
+root.mainloop()
