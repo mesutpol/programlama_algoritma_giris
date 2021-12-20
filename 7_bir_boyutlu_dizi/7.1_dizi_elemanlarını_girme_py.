@@ -1,0 +1,6 @@
+# Dizi elemanlarını girme
+A=[]
+N=int(input("Dizinin eleman sayısını giriniz: "))
+for i in range(0,N) :
+   print("A(%d)= "%(i+1),end='')
+   A.appennd(int(input()))
