@@ -1,0 +1,6 @@
+#kelime sayısı
+ni=" ,;-:"; s=0; c=input("Cümle: ")
+for i in range(len(c)): 
+    if (c[i] in ni):
+        s+=1
+print("\nCümlede %d tane kelime vardır. "%(s+1))
