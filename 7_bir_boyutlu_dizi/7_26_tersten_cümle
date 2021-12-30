@@ -1,0 +1,3 @@
+#cümlenin tersten yazdırılması
+a=input("cümleyi giriniz")
+print("\nCümlenin tersten yazımı:\n%s"%a[::-1])
