@@ -1,0 +1,8 @@
+#konvolüsyon
+import numpy as np
+print("giriş işaretini birer boşluk bırakarak giriniz!")
+x=[eval(i) for i in input().split()]
+print("birim dürtü cevabını birer boşluk bırakarak giriniz!")
+h=[eval(i) for i in input().split()]
+print("\nÇıkış işareti: ",end='')
+print(np.convolve(x,h))
