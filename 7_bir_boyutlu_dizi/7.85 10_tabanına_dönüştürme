@@ -1,0 +1,2 @@
+S=input("Sayı: "); N=int(input("Taban: "))
+print("\n10 tabanındaki değer: %d"%(int(S,N)))
