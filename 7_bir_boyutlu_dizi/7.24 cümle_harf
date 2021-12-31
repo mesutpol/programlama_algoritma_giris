@@ -1,0 +1,5 @@
+import re 
+a=input("cümleyi giriniz => "); b=input("Harfi giriniz => ")
+c=[i.start() for i in re.finditer(a,b)]
+print("\nBeliritilen harften %d kadar vardır.\nYerleri:"%len(c))
+print([x+1 for x in c])
