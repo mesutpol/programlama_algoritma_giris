@@ -1,0 +1,19 @@
+rs=input("roma rakamları ile giriniz: "); sy=0; k1=0
+for i in range(len(rs)):
+    k2=k1
+    if rs[i]=="I":
+        k1=1
+    elif rs[i]=="V":
+        k1=5
+    elif rs[i]=="X":
+        k1=50
+    elif rs[i]=="L":
+        k1=100
+    elif rs[i]=="C":
+        k1=500
+    else:
+        k1=1000
+    if k1>k2:
+        k3=0
+    sy+=(k1+k3)
+print("\nSayı : %d"%sy)
