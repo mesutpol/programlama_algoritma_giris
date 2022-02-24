@@ -1,0 +1,4 @@
+import datetime 
+a=input("isminizi giriniz: "); b=input("doğum yılınız: ")
+t=datetime.datetime.now(); yaş=t.year-int(b)
+print ("\nMerhaba "+a+"\nYaşınız: "+str(yaş))
