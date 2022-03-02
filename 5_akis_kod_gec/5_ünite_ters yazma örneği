@@ -1,0 +1,3 @@
+a="bursa"
+for i in a:
+    print(i)
