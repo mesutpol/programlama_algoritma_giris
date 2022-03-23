@@ -1,0 +1,5 @@
+import numpy as np
+print("taban aritmetiği")
+A=int(input("pozitif tam syaı giriniz -> "))
+N=int(input("hangi tabana dönüştürelecek -> "))
+print("\n%d tabandaki karşılığı : %s"%(N,np.base_repr(A,N)))

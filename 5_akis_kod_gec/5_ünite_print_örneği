@@ -1,0 +1,7 @@
+print("çift tırnak içinde yazdırma")
+print('tek  tırnak içinde yazdırma')
+print("""üç çift tırnak içinde yazdırma""")
+print('phyton\'u öğreniyorum')#yeni satırda ifadenei dvamı 
+print("pythonu öğreniyorum")
+print("16","kayseri","2017",sep="-")
+print("kayseri ünüversitesi\Elektirik elektronik bölümü.\bursa.\tTürkiye")

@@ -1,0 +1,5 @@
+k=input("kelime: "); kt=k[::-1]
+if (k==kt):
+    print("palindromik")
+else:
+    print("palindromik değil")
