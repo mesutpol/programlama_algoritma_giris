@@ -1,0 +1,4 @@
+s=input("sayı:")
+print("kod:",end='')
+for i in range(len(s)):
+    print("%s " %bin(int(s[i]))[2:].zfill(4),end='')
