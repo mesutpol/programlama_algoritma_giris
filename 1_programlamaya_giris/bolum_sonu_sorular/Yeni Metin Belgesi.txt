@@ -1,0 +1,275 @@
+HELLO PYTHON EXERCİSES
+
+1. For each of the following expressions, what value will the expression give?
+Verify your answers by typing the expressions into Python.
+a. 9 - 3
+b. 8 * 2.5
+c. 9 / 2
+d. 9 / -2
+e. 9 // -2
+f. 9 % 2
+g. 9.0 % 2
+h. 9 % 2.0
+i. 9 % -2
+j. -9 % 2
+k. 9 / -2.0
+l. 4 + 3 * 5
+m. (4 + 3) * 5
+2. Unary minus negates a number. Unary plus exists as well; for example,
+Python understands +5. If x has the value -17, what do you think +x should
+do? Should it leave the sign of the number alone? Should it act like
+absolute value, removing any negation? Use the Python shell to find out
+its behavior.
+3. Write two assignment statements that do the following:
+a. Create a new variable, temp, and assign it the value 24.
+b. Convert the value in temp from Celsius to Fahrenheit by multiplying
+by 1.8 and adding 32; make temp refer to the resulting value.
+What is temp’s new value?
+4. For each of the following expressions, in which order are the subexpressions evaluated?
+a. 6 * 3 + 7 * 4
+b. 5 + 3 / 4
+c. 5 - 2 * 3 ** 4
+Chapter 2. Hello, Python • 28
+report erratum • discuss
+5. Create a new variable a. x, and assign it the value 10.5.
+b. Create a new variable y, and assign it the value 4.
+c. Sum x and y, and make x refer to the resulting value. After this statement has been executed, what are the values of x and y?
+6. Write a bullet list description of what happens when Python evaluates
+the statement x += x - x when x has the value 3.
+7. When a variable is used before it has been assigned a value, a NameError
+occurs. In the Python shell, write an expression that results in a NameError.
+8. Which of the following expressions results in SyntaxErrors?
+a. 6 * -----------8
+b. 8 = people
+c. ((((4 ** 3))))
+d. (-(-(-(-5))))
+e. 4 += 7 / 2
+
+
+
+
+Designing and Using Functions
+
+Here are some exercises for you to try on your own. Solutions are available
+at http://pragprog.com/titles/gwpy3/practical-programming.
+1. Two of Python’s built-in functions are min and max. In the Python shell,
+execute the following function calls:
+a. min(2, 3, 4)
+b. max(2, -3, 4, 7, -5)
+c. max(2, -3, min(4, 7), -5)
+2. For the following function calls, in what order are the subexpressions
+evaluated?
+a. min(max(3, 4), abs(-5))
+b. abs(min(4, 6, max(2, 8)))
+c. round(max(5.572, 3.258), abs(-2))
+3. Following the function design recipe, define a function that has one
+parameter, a number, and returns that number tripled.
+4. Following the function design recipe, define a function that has two
+parameters, both of which are numbers, and returns the absolute value
+of the difference of the two. Hint: Call built-in function abs.
+5. Following the function design recipe, define a function that has one
+parameter, a distance in kilometers, and returns the distance in miles.
+(There are 1.6 kilometers per mile.)
+6. Following the function design recipe, define a function that has three
+parameters, grades between 0 and 100 inclusive, and returns the average
+of those grades.
+7. Following the function design recipe, define a function that has four
+parameters, all of them grades between 0 and 100 inclusive, and returns
+the average of the best 3 of those grades. Hint: Call the function that you
+defined in the previous exercise.
+8. Complete the examples in the docstring and then write the body of the
+following function:
+report erratum • discuss
+Exercises • 63
+def weeks_elapsed(day1, day2):
+""" (int, int) -> int
+day1 and day2 are days in the same year. Return the number of full weeks
+that have elapsed between the two days.
+>>> weeks_elapsed(3, 20)
+2
+>>> weeks_elapsed(20, 3)
+2
+>>> weeks_elapsed(8, 5)
+>>> weeks_elapsed(40, 61)
+"""
+9. Consider this code:
+def square(num):
+""" (number) -> number
+Return the square of num.
+>>> square(3)
+9
+"""
+In the following table, fill in the Example column by writing square, num,
+square(3), and 3 next to the appropriate description.
+Description Example
+Parameter
+Argument
+Function name
+Function call
+10. Write the body of the square function from the previous exercise.
+
+
+
+
+Working with Text
+
+1. What value does each of the following expressions evaluate to? Verify your
+answers by typing the expressions into the Python shell.
+a. 'Computer' + ' Science'
+b. 'Darwin\'s'
+c. 'H2O' * 3
+d. 'CO2' * 0
+2. Express each of the following phrases as Python strings using the
+appropriate type of quotation marks (single, double, or triple) and, if
+necessary, escape sequences. There is more than one correct answer for
+each of these phrases.
+a. They’ll hibernate during the winter.
+b. “Absolutely not,” he said.
+c. “He said, ‘Absolutely not,’” recalled Mel.
+d. hydrogen sulfide
+e. left\right
+3. Rewrite the following string using single or double quotes instead of triple
+quotes:
+'''A
+B
+C'''
+4. Use built-in function len to find the length of the empty string.
+5. Given variables x and y, which refer to values 3 and 12.5, respectively, use
+function print to print the following messages. When numbers appear in
+the messages, variables x and y should be used.
+a. The rabbit is 3.
+b. The rabbit is 3 years old.
+report erratum • discuss
+Exercises • 75
+c. 12.5 is average.
+d. 12.5 * 3
+e. 12.5 * 3 is 37.5.
+6. Consider this code:
+>>> first = 'John'
+>>> last = 'Doe'
+>>> print(last + ', ' + first)
+What is printed by this code?
+7. Use input to prompt the user for a number, store the number entered as
+a float in a variable named num, and then print the contents of num.
+8. Complete the examples in the docstring and then write the body of the
+following function:
+def repeat(s: str, n: int) -> str:
+""" Return s repeated n times; if n is negative, return the empty string.
+>>> repeat('yes', 4)
+'yesyesyesyes'
+>>> repeat('no', 0)
+>>> repeat('no', -2)
+>>> repeat('yesnomaybe', 3)
+"""
+9. Complete the examples in the docstring and then write the body of the
+following function:
+def total_length(s1: str, s2: str) -> int:
+""" Return the sum of the lengths of s1 and s2.
+>>> total_length('yes', 'no')
+5
+>>> total_length('yes', '')
+>>> total_length('YES!!!!', 'Noooooo')
+"""
+
+
+Making Choices
+
+1. What value does each expression produce? Verify your answers by typing
+the expressions into Python.
+a. True and not False
+b. True and not false (Notice the capitalization.)
+c. True or True and False
+Chapter 5. Making Choices • 94
+report erratum • discuss
+d. not True or not False
+e. True and not 0
+f. 52 < 52.3
+g. 1 + 52 < 52.3
+h. 4 != 4.0
+2. Variables x and y refer to Boolean values.
+a. Write an expression that produces True iff both variables are True.
+b. Write an expression that produces True iff x is False.
+c. Write an expression that produces True iff at least one of the variables
+is True.
+3. Variables full and empty refer to Boolean values. Write an expression that
+produces True if and only if at most one of the variables is True.
+4. You want an automatic wildlife camera to switch on if the light level is
+less than 0.01 lux or if the temperature is above freezing, but not if both
+conditions are true. (You should assume that function turn_camera_on has
+already been defined.)
+Your first attempt to write this is as follows:
+if (light < 0.01) or (temperature > 0.0):
+if not ((light < 0.01) and (temperature > 0.0)):
+turn_camera_on()
+A friend says that this is an exclusive or and that you could write it more
+simply as follows:
+if (light < 0.01) != (temperature > 0.0):
+turn_camera_on()
+Is your friend right? If so, explain why. If not, give values for light and
+temperature that will produce different results for the two fragments of code.
+5. In Functions That Python Provides, on page 31, we saw built-in function
+abs. Variable x refers to a number. Write an expression that evaluates to
+True if x and its absolute value are equal and evaluates to False otherwise.
+Assign the resulting value to a variable named result.
+6. Write a function named different that has two parameters, a and b. The
+function should return True if a and b refer to different values and should
+return False otherwise.
+report erratum • discuss
+Exercises • 95
+7. Variables population and land_area refer to floats.
+a. Write an if statement that will print the population if it is less than
+10,000,000.
+b. Write an if statement that will print the population if it is between
+10,000,000 and 35,000,000.
+c. Write an if statement that will print “Densely populated” if the land density
+(number of people per unit of area) is greater than 100.
+d. Write an if statement that will print “Densely populated” if the land density
+(number of people per unit of area) is greater than 100, and “Sparsely
+populated” otherwise.
+8. Function convert_to_celsius from Defining Our Own Functions, on page 35,
+converts from Fahrenheit to Celsius. Wikipedia, however, discusses eight
+temperature scales: Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton,
+Rèaumur, and Rømer. Visit http://en.wikipedia.org/wiki/Comparison_of_temperature_scales to read about them.
+a. Write a convert_temperatures(t, source, target) function to convert temperature t from source units to target units, where source and target are each
+one of "Kelvin", "Celsius", "Fahrenheit", "Rankine", "Delisle", "Newton", "Reaumur",
+and "Romer" units.
+Hint: On the Wikipedia page there are eight tables, each with two columns
+and seven rows. That translates to an awful lot of if statements—at least
+8 * 7—because each of the eight units can be converted to the seven
+other units. Possibly even worse, if you decided to add another temperature scale, you would need to add at least sixteen more if statements:
+eight to convert from your new scale to each of the current ones and eight
+to convert from the current ones to your new scale.
+A better way is to choose one canonical scale, such as Celsius. Your
+conversion function could work in two steps: convert from the source
+scale to Celsius and then from Celsius to the target scale.
+b. Now if you added a new temperature scale, how many if statements
+would you need to add?
+9. Assume we want to print a strong warning message if a pH value is below
+3.0 and otherwise simply report on the acidity. We try this if statement:
+Chapter 5. Making Choices • 96
+report erratum • discuss
+>>> ph = 2
+>>> if ph < 7.0:
+... print(ph, "is acidic.")
+... elif ph < 3.0:
+... print(ph, "is VERY acidic! Be careful.")
+...
+2 is acidic.
+This prints the wrong message when a pH of 2 is entered. What is the
+problem, and how can you fix it?
+10. The following code displays a message(s) about the acidity of a solution:
+ph = float(input("Enter the ph level: "))
+if ph < 7.0:
+print("It's acidic!")
+elif ph < 4.0:
+print("It's a strong acid!")
+a. What message(s) are displayed when the user enters 6.4?
+b. What message(s) are displayed when the user enters 3.6?
+c. Make a small change to one line of the code so that both messages
+are displayed when a value less than 4 is entered.
+11. Why does the last example in Remembering Results of a Boolean Expression
+Evaluation, on page 92, check to see whether someone is light (that is,
+that person’s BMI is less than the threshold) rather than heavy? If you
+wanted to write the second assignment statement as heavy = bmi >= 22.0,
+what change(s) would you have to make to the code?
+
