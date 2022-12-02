@@ -1,0 +1,48 @@
+import tkinter
+
+def hesap():
+    A=int(E1.get())
+    B=int(E2.get())
+    C=int(E3.get())
+    D=B**2-4*A*C 
+    if D > 0:
+        x1=(-B-(D)**(1/2))/(2*A)   
+        x2=(-B+(D)**(1/2))/(2*A)
+        print(x1,x2) 
+    if D == 0:
+        x1=-B/(2*A)
+        print(x1)
+    if D < 0:
+        print("sanal kök")
+        
+        etiket4.config(text=str(D))
+root = tkinter.Tk()
+etiket1 = tkinter.Label(root,text="A giriniz")
+etiket1.grid(row=1,column=0,padx=110, pady=10)
+
+etiket2 = tkinter.Label(root,text="B giriniz")
+etiket2.grid(row=2,column=0,padx=110, pady=10)
+
+etiket3 = tkinter.Label(root,text=" C giriniz ")
+etiket3.grid(row=4,column=0,padx=110, pady=10)
+
+etiket4 = tkinter.Label(root,text=" D ")
+etiket4.grid(row=5,column=0,padx=110, pady=10)
+
+
+E1 = tkinter.Entry(root, bd =2)
+E1.grid(row=1,column=1,padx=110, pady=3)
+
+E2 = tkinter.Entry(root, bd =2)
+E2.grid(row=2,column=1,padx=110,pady=3)
+
+E3 = tkinter.Entry(root, bd =2)
+E3.grid(row=4,column=1,padx=110,pady=3)
+
+
+button1= tkinter.Button(root, text =" hesapla ",width=20,command=hesap)
+button1.grid(padx=110, pady=70)
+
+            
+root.mainloop()
+

@@ -1,0 +1,9 @@
+s=input ("BCD kodu: "); x=len (s) % 4 
+if (x!=0):
+    y="" 
+    for i in range (4-x):
+        y+="0"; 
+    s=y+s;
+print("\nDeğer: ", end=''); 
+for i in range (0,len (s),4): 
+    print(int(s[i:i+4],2),end='')

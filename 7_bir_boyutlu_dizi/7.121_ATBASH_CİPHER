@@ -1,0 +1,5 @@
+m=input("kelime=").upper()
+sm=""
+for i in range(len(m)):
+    sm+=chr(155-ord(m[i]))
+print("\nşifreli kelime: %s"%sm)
