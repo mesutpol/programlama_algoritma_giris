@@ -20,7 +20,7 @@ def matris_kose(mat,N) -> None:
 
 #matris girme
 N=int(input("Kare matrisin tipini giriniz: "))
-A=[[[] for i in range(N)] for j in range(N)] # aciklamaya bkz.
+A=[[[] for i in range(N)] for j in range(N)] # onceki orneklerdeki aciklamalara bkz.
 for i in range(N):
     for j in range(N):
         A[i][j]=int(input("A(%d,%d= "%(i+1,j+1)))
