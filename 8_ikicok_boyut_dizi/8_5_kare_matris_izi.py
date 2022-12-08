@@ -8,9 +8,9 @@
 
 # matrisin izini bulma fonksiyonu
 # matrisin bulundugu degisken "mat", matrisin tipi "N"
-# Void kullanildi return type icin cunku geriye getirmesine gerek yok
+# None kullanildi return type icin cunku geriye getirmesine gerek yok
 # bulunan degerin. Zaten fonksiyon icinde bu deger ekrana yazdirilacak.
-def matris_iz(mat,N) -> Void:
+def matris_iz(mat,N) -> None:
     T = 0 # toplam deger icin kullanilacak
 
     for i in range(0,N):
