@@ -2,7 +2,7 @@
 # Klavyeden girilen NxN tipindeki A matrisinin 2. satir elemanlarinin toplamini 
 # bulan program.
 
-# bu fonksiyon ikinci satirdaki matris degerlerinin toplamini bulup ve yazdiriyor.
+# bu fonksiyon ikinci satirdaki matris degerlerinin toplamini bulup yazdiriyor.
 # parametreler sirasiyla: deger listesi, kare matrisin tipi(mesela 2x2,3x3,4x4...)
 def ikinci_satir(liste, matris:int)->None:  # return type 'None' cunku bulunan deger
                                             # yazdirilacak fonksiyon icinde
@@ -19,4 +19,4 @@ for i in range(N): # satir icin
     for j in range(N): # sutun icin
         A[i][j]=int(input("A(%d,%d= "%(i+1,j+1)))
 
-ikinci_satir(A,N) # fonksiyon burda cagirildi
+ikinci_satir(A,N) # fonksiyon burada cagirildi
