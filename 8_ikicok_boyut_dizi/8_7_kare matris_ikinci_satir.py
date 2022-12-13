@@ -8,7 +8,9 @@ def ikinci_satir(liste, matris:int)->None:  # return type 'None' cunku bulunan d
                                             # yazdirilacak fonksiyon icinde
     T = 0 # son toplam deger icin degisken
     for i in range(matris): # her sutun icin
-        T += liste[1][i] # T = A[1][i] + T
+        T += liste[1][i] # T = A[1][i] + T 
+        # burada index degeri 1 cunku liste indexleri sifirdan basliyor. Yani ikinci
+        # index degeri 1 oluyor.
 
     print("Ikinci satirdaki matris elemanlarinin toplami {}".format(T))
     
