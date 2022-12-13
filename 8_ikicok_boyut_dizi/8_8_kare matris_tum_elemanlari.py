@@ -9,7 +9,7 @@ def matris_topla(liste, matris:int)->None:   # return type 'None' cunku bulunan 
     T = 0
     for i in range(matris): # her satir icin...
         for j in range(matris): # her sutun icin...
-            T += liste[i][j]
+            T += liste[i][j] # T = A[1][i] + T 
 
     print("Tum matris elemanlarinin toplami {}".format(T))
 
