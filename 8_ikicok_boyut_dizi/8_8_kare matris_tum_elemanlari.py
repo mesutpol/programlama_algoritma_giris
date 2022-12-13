@@ -7,8 +7,8 @@
 def matris_topla(liste, matris:int)->None:   # return type 'None' cunku bulunan deger
                                              # yazdirilacak fonksiyonun icinde
     T = 0
-    for i in range(matris):
-        for j in range(matris):
+    for i in range(matris): # her satir icin...
+        for j in range(matris): # her sutun icin...
             T += liste[i][j]
 
     print("Tum matris elemanlarinin toplami {}".format(T))
