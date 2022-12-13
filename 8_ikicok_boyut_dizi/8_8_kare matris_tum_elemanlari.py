@@ -2,7 +2,7 @@
 # Klavyeden girilen NxN tipindeki A matrisinin tum elemanlarinin toplamini
 # hesaplayip ekrana yazdiran program.
 
-# bu fonksiyon verilen matrisin tum elemanlarini toplayip ve yazdiriyor.
+# bu fonksiyon verilen matrisin tum elemanlarini toplayip yazdiriyor.
 # parametreler sirasiyla: deger listesi, kare matrisin tipi(mesela 2x2,3x3,4x4...)
 def matris_topla(liste, matris:int)->None:   # return type 'None' cunku bulunan deger
                                              # yazdirilacak fonksiyonun icinde
