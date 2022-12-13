@@ -1,6 +1,6 @@
 # Ornek 8.7
-# Klavyeden girilen NxN tipindeki A matrisinin tum elemanlarinin toplamini
-# hesaplayip ekrana yazdiran program.
+# Klavyeden girilen NxN tipindeki A matrisinin 2. satir elemanlarinin toplamini 
+# bulan program.
 
 # bu fonksiyon ikinci satirdaki matris degerlerinin toplamini bulup ve yazdiriyor.
 # parametreler sirasiyla: deger listesi, kare matrisin tipi(mesela 2x2,3x3,4x4...)
