@@ -10,7 +10,7 @@ def ikinci_satir(liste, matris:int)->None:  # return type 'None' cunku bulunan d
     for i in range(matris): # her sutun icin
         T += liste[1][i] # T = A[1][i] + T
 
-    print("Ikinci satirdaki matris degerlerinin toplami {}".format(T))
+    print("Ikinci satirdaki matris elemanlarinin toplami {}".format(T))
     
 #matris girme
 N=int(input("Kare matrisin tipini giriniz: "))
