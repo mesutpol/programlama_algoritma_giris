@@ -1,4 +1,0 @@
-Soru1 = Algoritma nedir? Algoritmanın gerekliliği ve avantajları.
-
-Cevap = İşlem basamakları olarak da anılan bu kavram problem çözümünde hangi yöntemin seçileceği, kullanılacak araçlar ve elde edilecek sonuçlar noktasında başarılı olunmasını sağlar. 
-Genellikle problem çözme amacıyla üretilen; açık, basit, sıralı ve tekrarı mümkün olan algoritma programlamanın en önemli unsurudur.
