@@ -1,0 +1,21 @@
+A=int(input("sayı giriniz: "))
+B=int(input("sayı giriniz: "))
+C=int(input("sayı giriniz: "))
+
+if A<B<C:
+ print("A<B<C")
+
+elif A<C<B:
+ print("A<C<B")
+
+elif B<C<A:
+ print("B<C<A ")
+
+elif B<A<C:
+ print ("B<A<C ")
+
+elif C<A<B:
+ print ("C<A<B ")
+
+else:
+ print("C<B<A")
