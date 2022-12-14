@@ -1,0 +1,3 @@
+Soru 3 = Değişken nedir?Programlamada neden değişkene ihtiyaç duyulur.
+
+Cevap = Eğer değişkenler olmasaydı programlama yaparken tüm olasılıkları tek tek yazmak zorunda kalırdık. Değişkenler sayesinde hem zaman kazanabiliriz hem de hata olasılığı daha düşük seviyelerde olur.
