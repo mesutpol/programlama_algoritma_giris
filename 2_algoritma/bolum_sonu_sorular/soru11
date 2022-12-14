@@ -1,0 +1,8 @@
+sayi = int(input("1. Sayı: "))
+ 
+if (sayi>0) :
+   print("pozitif sayı")
+elif (sayi<0):
+   print("negatif sayı")
+else:
+   print("sayı sıfırdır")
