@@ -1,13 +1,12 @@
 Soru7 = Girilen üç sayıdan en büyüğünü bulan programın algoritmasını tasarlayınız.
 
 Cevap =
- sayı1=int(input("bir sayı gir:"))
-sayı2=int(input("bir sayı daha gir:"))
-sayı3=int(input("bir sayı daha gir:"))
-if (sayı1>sayı2):
-  print(sayı1)
-elif (sayı2>sayı3):
-    print(sayı2)
-        
-elif (sayı1>sayı3):
-    print(sayı1) 
+# a=int(input("a sayısı:"))
+#b=int(input("b sayısı:"))
+#c=int(input("c sayısı:"))
+#if a>b and a>c :
+ #print("a en büyük sayıdır")
+#elif b>a and b>c:
+ #print("b en büyük sayıdır")
+#else:
+ #  print("c sayısı en büyüktür")
