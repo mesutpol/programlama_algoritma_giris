@@ -1,0 +1,13 @@
+Girilen üç sayıdan enbüyüğünü bulan programın algoritması
+sayi1 = int(input("1. Sayı: ")) #"kullanıcıdan 1.sayıyı girmesini istedik#
+sayi2 = int(input("2. Sayı: ")) #kullanıcıdan 2.sayıyı girmesini istedik#
+sayi3 = int(input("3. Sayı: "))#kullanıcıdan 3.sayıyı girmesini istedik#
+
+if (sayi1 >= sayi2) and (sayi1 >= sayi3):  #sayi1 büyük eşit ise sayi2 ye ve sayi1 büyük eşit ise sayı üçe  buyuk sayı sayi1 olur#
+   buyuk = sayi1
+elif (sayi2 >= sayi1) and (sayi2 >= sayi3): #sayi2 büyük eşitse sayi1 e ve sayi2 büyük eşitse sayi3ten buyuk sayi sayi2 olur#
+   buyuk = sayi2
+else:  #eğer bunlar sağlamıyorsa sayi3 büyük sayi olur#
+   buyuk = sayi3
+
+print("Büyük olan sayı: ",buyuk) # print komutuyla büyük sayıyı yazdırır.#
