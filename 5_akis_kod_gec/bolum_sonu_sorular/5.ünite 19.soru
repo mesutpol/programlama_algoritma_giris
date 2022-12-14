@@ -1,0 +1,11 @@
+SORU: Program kodlarının daha rahat okunabilmesi için ne yapılır? 
+
+CEVAP: 
+
+Yorum yazmayı bırak
+Büyük Foknsiyonlardan kaçının
+Deep Nesting
+Gizemli sayılar
+Değişken İsimleri
+Sınıf isimlendirmeleri için PascalCase kullanın
+Sabit değerleri büyük harfle yaz
