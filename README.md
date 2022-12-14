@@ -26,7 +26,7 @@
   - [Bölüm sonu sorular](https://github.com/mepol58/programlama_algoritma_giris/tree/main/9_grafik_uyg/bolum_sonu_sorular)
 - [Bölüm 10  DOSYALAMA UYGULAMALARI](https://github.com/mepol58/programlama_algoritma_giris/tree/main/10_dosyalama_uyg)
   - [Bölüm sonu sorular](https://github.com/mepol58/programlama_algoritma_giris/tree/main/10_dosyalama_uyg/bolum_sonu_sorular)
-- [Bölüm 11  DONANIM UYGULAMALARI] (https://github.com/mepol58/programlama_algoritma_giris/tree/main/11_dosyalama_uyg)
+- [Bölüm 11  DONANIM UYGULAMALARI](https://github.com/mepol58/programlama_algoritma_giris/tree/main/11_dosyalama_uyg)
   - [Bölüm sonu sorular](https://github.com/mepol58/programlama_algoritma_giris/tree/main/11_dosyalama_uyg/bolum_sonu_sorular)
   
 ## Katkıda bulunanlar
