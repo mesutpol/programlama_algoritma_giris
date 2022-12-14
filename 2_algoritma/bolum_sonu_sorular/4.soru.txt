@@ -1,3 +1,0 @@
-Soru 4 = Sayaçlar,nerelerde ve niçin kulanılmaktadır?
-
-Cevap =  Bazı işlemlerin belirli sayıda yaptırılması ve üretilen değerlerin sayılması gerekebilir. Bu tür sayma işlemlerine algoritmada Sayaç adı veriler.Sayaçlar da birer değişkendir. Sayac=Sayac+1 Bu işlemde Sayac değişkenine 1 eklenmekte ve oluşan sonuç yine kendisine yani Sayac değişkenine aktarılmaktadır.
