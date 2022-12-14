@@ -1,0 +1,8 @@
+#Klavyeden girilen pozitif bir tam sayının tek mi ve çift mi olduğunu tespit eden programın algoritmasını hesaplayınız.
+
+sayi = input('Sayı : ') #Kullanıcıdan sayı iste.
+if(int(sayi)%2==0):     
+      print("Sayı Çift")  #Girilen sayı çift ise ekrana "Sayı Çift" yaz.
+else:
+      print("Sayı Tek")  #Girilen sayı tek ise ekrana "SayıTek" yaz.
+
