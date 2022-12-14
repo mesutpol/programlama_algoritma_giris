@@ -1,0 +1,14 @@
+f=1
+s=20
+
+while(1):
+    if s<1:
+        break
+    s=s-3
+    f=f+s
+    f=f+2
+    print("%d ve %d" %(f,s) )
+    
+print("%d" %f)
+
+print("f'nin son değeri = {}".format(f) )
