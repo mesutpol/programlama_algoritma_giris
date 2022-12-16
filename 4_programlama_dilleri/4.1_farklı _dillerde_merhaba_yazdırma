@@ -1,0 +1,35 @@
+#Örnek4.1 
+Soru: Ekrana "Merhaba" yazan programı C, C++, C#, Java, MATLAB ve Python dillerinde kodlayınız
+Cevap:
+
+# C kullanarak ekrana "Merhaba" yazdırma:
+
+#include <stdio.h>
+#include <conio.h>
+void main()
+{    cirscr(): printf("Merhaba"); getch();}
+
+# C++ kullanarak ekrana "Merhaba" yazdırma:
+
+#include
+using namespace std;
+main()
+{     system("cls"); cout <<"Merhaba">>; system("pause"); return 0;   }
+
+# C# kullanarak ekrana "Merhaba" yazdırma:
+using System;
+namespace merhaba
+{   class Program
+    {   static void Main(string[] args)
+        {   Console.WriteLine("Merhaba"); Console.Readline(); }}}
+
+# Java kullanarak ekrana "Merhaba" yazdırma:
+public class Merhaba {
+public static void main(String[] args)
+{   System.out.println("Merhaba"); }}
+
+# MATLAB kullanarak ekrana "Merhaba" yazdırma:
+clc; fprintf('Merhaba/n'); % disp('Merhaba')
+
+#Python kullanarak ekrana "Merhaba" yazdırma:
+print(Merhaba)
