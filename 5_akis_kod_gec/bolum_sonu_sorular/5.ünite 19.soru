@@ -1,0 +1,10 @@
+SORU: Program kodlarının daha rahat okunabilmesi için ne yapılır? 
+
+CEVAP: 
+
+1)Büyük Foknsiyonlardan kaçınmalıyız
+2)Deep Nesting
+3)Gizemli sayılar
+4)Değişken İsimleri
+5)Sınıf isimlendirmeleri için PascalCase kullanmalıyız
+6)Sabit değerleri büyük harfle yazmalıyız
