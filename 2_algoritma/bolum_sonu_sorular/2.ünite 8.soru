@@ -1,0 +1,10 @@
+Soru  = Girilen üç sayıyı küçükten büyüğe doğru sıralayan  programın algoritmasını hazırlayınız
+
+cevap = 
+sayi=int(input("sayı giriniz:"))
+if(sayi<0): 
+    print("Sayı Negatif") # girilen sayı 0'dan küçük olunca ekrana negatif yazdır 
+elif (sayi>0):
+    print("Sayı Pozitif") # girilen sayı 0'dan büyük olunca ekrana pozitif yazdır 
+else:
+    print("Sayı Sıfırdır") # girilen sayı diğerlerini içermiyorsa ekrana 0 yazdır
