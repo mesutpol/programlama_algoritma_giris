@@ -1,0 +1,12 @@
+Soru7 = Girilen üç sayıdan en büyüğünü bulan programın algoritmasını tasarlayınız.
+
+Cevap =
+ a=int(input("a sayısı:"))
+b=int(input("b sayısı:"))
+c=int(input("c sayısı:"))
+if a>b and a>c : # a>b ve a>c ise a en büyük sayı
+ print("a en büyük sayıdır") 
+elif b>a and b>c:  # b>a ve b>c ise b en büyük sayı
+ print("b en büyük sayıdır")
+else: # bunların hç biri değilse c en büyük sayı
+  print("c sayısı en büyüktür")
