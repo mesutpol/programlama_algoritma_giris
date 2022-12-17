@@ -1,0 +1,11 @@
+SORU: Program kodlarının daha rahat okunabilmesi için ne yapılır? 
+
+CEVAP: 
+
+1)Yorum satırların konulması
+2)Kodların daha sade yazılması
+3)Değişken İsimlerini anlaşılır şekilde yazmak
+4)Sınıf isimlendirmeleri için PascalCase kullanmalıyız
+5)Sabit değerleri büyük harfle yazmalıyız
+
+PascalCase: değişken, sınıf, metod veya fonksiyonun kelimeleri bitişik ve büyük harfle başlayacak şekilde yazılmasıdır.
