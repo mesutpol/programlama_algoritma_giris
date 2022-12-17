@@ -1,0 +1,13 @@
+Soru:Klavyeden girilen a sayısının yine klavyeden girilen b sayısına tam bölünüp bölünmediğini veren program
+# Cevap
+
+#kullanıcadan iki tane sayı değerlerini alıyoruz
+a=int(input("Sayı giriniz: "))
+b=int(input("Başka bir sayı giriniz: "))
+#sonra % opratörünü kullanarak kalanı alıyoruz
+son_islem = a % b
+#Burada kalanı atadığımız son_islem eşit olduğu zaman 0 'a tam bölünür demek olduğundan tam bölünür deyiruz
+if son_islem==0:
+   print("Tam bölünür") 
+else:
+    print("Tam bölünmez")
