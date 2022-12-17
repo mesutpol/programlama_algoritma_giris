@@ -1,0 +1,12 @@
+soru 2 = Algoritma hazırlanırken dikat edilmesi gereken hususları açıklayınız
+cevap = Programlamanın en önemli kısmı problemin çözümü için algoritma hazırlayabilmek geliştirmektir.
+
+ETKİNLİK =Bilgisayarlar düşünemez. Bu yüzden algoritmanın her adımı anlaşılır, basit ve kesin bir biçimde ifade edilmiş olmalıdır. Yorum gerektirmemeli ve belirsiz ifadelere sahip olmamalıdır. Gereksiz tekrarlarda bulunmayan diğer algoritmalar içerisinde de kullanılabilir olmalıdır.
+
+SONLULUK = Her algoritmanın bir başlangıç noktası, belirli işlem adımı ve bir bitiş noktası içermelidir. Sonsuz döngüye girmemelidir.
+
+KESİNLİK = İşlem sonucu kesin olmalı, aynı veri için her yeni çalıştırmada aynı sonucu üretmelidir.
+
+GİRİŞ ÇIKIŞ = Algoritma giriş (üzerinde işlem yapılacak değerler) ve çıkış (yapılan işlemler neticesinde üretilen sonuç değerler) değerlerine sahip olmalıdır.
+
+BAŞARIM/PERFORMANS = Amaç donanım gereksinimi (bellek kullanımı gibi), çalışma süresi gibi performans kriterlerini dikkate alarak yüksek başarımlı programlar yazmak olmalıdır.
