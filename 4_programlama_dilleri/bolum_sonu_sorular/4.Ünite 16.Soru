@@ -1,0 +1,33 @@
+Soru: #Ekrana isminizi yaz programı C, C++, C#, Java, MATLAB ve Python dillerinde kodlayınız.
+Cevap:
+#C
+
+#include <stdio.h>
+#include <conio.h>
+void main()
+{ printf("İsminiz"); getch(); return 0;}
+
+# C++
+
+#include
+using namespace std;
+main()
+{     system("cls"); cout <<"İsminiz">>; system("pause"); return 0;   }
+
+# C#
+using System;
+namespace isminiz
+{   class Program
+    {   static void Main(string[] args)
+        {   Console.WriteLine("İsminiz"); Console.Readline(); }}}
+
+#Java
+public class isminiz {
+public static void main(String[] args)
+{   System.out.println("İsminiz"); }}
+
+#MATLAB
+clc; fprintf('İsminiz/n'); % disp('İsminiz')
+
+#Python
+print("İsminiz")
