@@ -1,0 +1,14 @@
+Soru:Girilen Bir Cümleyi Tersten Ve Harflerini Küçük Yazdıran Program
+
+#Cevap:
+
+#kullanıcıdan büyük harflerle bir şeyler yazmasını istedik
+mesaj=str(input("Büyük harflerle bir ileti giriniz: "))
+#sonra lower komutu ile girilen mesajı küçük harflere çevirdik
+mesaj = mesaj.lower()
+#ekrana yazdırdık
+print(mesaj)
+#mesajı ters çeviriyoruz
+mesaj=mesaj[::-1]
+#tekrar ekrana yazdırıyoruz
+print(mesaj)
