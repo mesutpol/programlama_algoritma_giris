@@ -1,0 +1,5 @@
+Akış diyagramı hazırlanırken dikkat edilmesi gereken hususlar nelerdir?
+Diyagram her zaman başla ve bitir deyimlerini ifade eden şekil ile başlar ve sonlanır.
+Şekiller birbiriyle orantılı olacak şekilde, muntazam mümkünse bilgisayar ortamında çizilir.
+Akışı yönlendiren oklar her zaman şekillerin ortasına gelecek şekilde konumlandırılır.
+Kullanılan değişkenler ve yapılan hesaplamalar şekillerin içerisinde belirtilir.
