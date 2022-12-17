@@ -1,0 +1,23 @@
+#Girilen üç sayıyı küçükten büyüyüğe doğru sıralayan programın algoritması
+
+A=int(input("sayı giriniz: "))#kullanıcının sayı girmesini istedik
+B=int(input("sayı giriniz: "))#kullanıcının sayı girmesini istedik
+C=int(input("sayı giriniz: "))#kullanıcının sayı girmesini istedik
+
+if A<B<C :     # a sayısı b sayısından ve c sayısından küçük mü onu konturol ediyoruz
+ print("A<B<C") # ekrana a küçüktür b ve c den küçüktür yazar#
+
+elif A<C<B:  # a sayısı c sayısından ve b sayısından küçük mü onu konturol ediyoruz
+ print("A<C<B") # ekrana a küçüktür c ve b den küçüktür yazar
+
+elif B<C<A:   # b sayısı c sayısından ve a sayısından küçük mü onu konturol ediyoruz
+ print("B<C<A ") # ekrana b küçüktür c ve a den küçüktür yazar
+
+elif B<A<C:    # b sayısı a sayısından ve c sayısından küçük mü onu konturol ediyoruz
+ print ("B<A<C ")# ekrana b küçüktür a ve c den küçüktür yazar
+
+elif C<A<B: # c sayısı a sayısından ve b sayısından küçük mü onu konturol ediyoruz
+ print ("C<A<B ") # ekrana c küçüktür a ve b den küçüktür yazar
+
+else: # bunlar değilse ekrana c küçüktür b ve a dan şeklinde yazdırır
+ print("C<B<A")
