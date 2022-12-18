@@ -1,0 +1,12 @@
+Soru = Programlama dilinde Kütüphane/başlık dosyası/modül kavramlarını açıklayınız?
+
+Cevap=
+
+Kütphane=Yazılım kütüphanesi (Software Library), yazılım geliştiricilerinin program geliştirirken kullandıkları bir tür program kodları ve veriler takımıdır.
+Yazılım kütüphaneleri, yazılımcılar ve programlama dilinin derleyicilerine çalıştırılabilir programlar geliştirme konusunda yardımcı olurlar.
+
+Başlık Dosyası = Yazılım kütüphanesi (Software Library), yazılım geliştiricilerinin program geliştirirken kullandıkları bir tür program kodları ve veriler takımıdır.
+Yazılım kütüphaneleri, yazılımcılar ve programlama dilinin derleyicilerine çalıştırılabilir programlar geliştirme konusunda yardımcı olurlar.
+
+Modül = Modül, bir yazılımın bir veya daha fazla rutin işlemini içeren parçasına verilen isimdir.Bir veya birden daha fazla modül birbirinden bağımsız olarak geliştirilerek bir yazılım meydana getirilmesi için kullanılabilir.
+Kurumsal düzeyde hazırlanan yazılımların büyük bir çoğunluğu içerisinde birçok modül içermektedir.
