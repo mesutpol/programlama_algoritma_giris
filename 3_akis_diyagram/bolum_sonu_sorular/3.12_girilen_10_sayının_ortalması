@@ -1,0 +1,17 @@
+#kullanıcadan 10 tane sayı istiyoruz
+birincisayi=int(input(("1.sayıyı gir")))
+ikincisayi=int(input("2.sayıyı gir"))
+üçüncüsayi=int(input("3.sayıyı gir"))
+dördüncüsayi=int(input("4.sayıyı gir"))
+beşincisayi=int(input("5.sayıyı gir"))
+altıncı_sayi=int(input(("6.sayıyı gir")))
+yedinci_sayi=int(input("7.sayıyı gir"))
+sekizinci_sayi=int(input("8.sayıyı gir"))
+dokuzuncu_sayi=int(input("9.sayıyı gir"))
+onuncu_sayi=int(input("10.sayıyı gir"))
+#aldığımız sayıları toplayıp toplam değişkenine atıyoruz
+toplam=int(birincisayi+ikincisayi+üçüncüsayi+dokuzuncu_sayi+beşincisayi+altıncı_sayi+yedinci_sayi+sekizinci_sayi+dokuzuncu_sayi+onuncu_sayi)
+#ortalamasını alıp ortalama değişkenine atıyoruz
+ortalama=toplam/10
+#ekrana ortalama yı yazdırıyoruz
+print(ortalama)
