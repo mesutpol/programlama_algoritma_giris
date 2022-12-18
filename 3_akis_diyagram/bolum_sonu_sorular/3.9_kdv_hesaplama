@@ -1,0 +1,8 @@
+ürün=0
+#kullanıcaıdan ürün fiyatı ve yüzde olarak kdv istiyoruz
+ürün_fiyatı=input("ürün fiyatını giriniz : ")
+KDV_değeri=input("KDV değerini giriniz(%) : ")
+#kullanıcıdan akdığımız verileri işleme tabi tutuyoruz KDV_ekli_hali değişkenine atıyoruz
+KDV_ekli_hali=int(ürün_fiyatı)+(int(ürün_fiyatı)*int(KDV_değeri)/100)
+#KDV_ekli_hali ekrana yazdırıyoruz
+print("kdvli değer :",KDV_ekli_hali)
