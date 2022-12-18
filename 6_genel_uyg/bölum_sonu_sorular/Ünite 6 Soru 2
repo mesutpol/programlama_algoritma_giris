@@ -1,0 +1,15 @@
+2).Klavyeden üç kenarı girilen bir üçgen türünün(eşkenar, ikizkenar veya çeşitkenar) tespit eden programın akış diyagramını çizip yazılımını yapınız
+
+Adım 1 :  Başla
+
+Adım 2:  Üç kenar uzunluğunu giriniz.(a,b,c)
+
+Adım 3:  Eğer ((a+b>c) ve (a-b<c)) veya ((a+c>b) ve (a-c<b)) veya ((b+c>a) ve (b-c<a)) değilse ekrana “Bir üçgen çizilemez.” yaz.
+
+Adım 4:  Eğer ((a=b) ve (b=c) ve (a=c))  ise ekrana “Eşkenar üçgen” yaz.
+
+Adım 5:  Eğer ((a<>b) ve (a<>c)  ve (b<>c)) ise ekrana “Çeşitkenar üçgen” yaz.
+
+Adım 6:  Eğer ((a=b) ve (b<>c)) veya ((a=c) ve (c<>b)) veya ((b=c) ve (c<>a)) ise ekrana “İkizkenar Üçgen”  yaz.
+
+Adım 10: Bitir
