@@ -1,0 +1,8 @@
+#Ürüne verilecek olan kdv oranını yazmak için kdvOrani adında bir değer atıyoruz.
+kdvOrani = 0.18
+#Ürünün fiyatının değer olarak girilebilmesi için input fonksiyonu ile bizden istenen değeri girebilmemiz için "ürünün fiyatını giriniz: yazıyoruz".
+urunFiyati = float(input("ürünün fiyatını giriniz: "))
+#Bize sonucu göstermek için yapılan çarpma işlemini "*" ibaresini kullanarak iki değerin çarpılmasını sağlıyoruz.
+kdvSonuc = urunFiyati * kdvOrani
+#Son olarak bu değerin önümüze çıkması için "print" fonksiyonu ile yazdırıyoruz.
+print("Ürünün KDV’si: "+ str(kdvSonuc))
