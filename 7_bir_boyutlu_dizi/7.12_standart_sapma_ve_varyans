@@ -1,0 +1,14 @@
+#örnek 7.12 
+#standart sapma ve varyans
+import statistics
+#kullanıcıdan dizi sayısını istiyoruz
+a = [] ; n=int (input("dizinin eleman sayısını giriniz:  "))
+#döngü ile n  yi i ye atıyoruz
+for i in range (n) :
+#hesap işlemini yapıp ekrana yazdırıyoruz
+    print ("a(%d)= "% (i+1) , end='' ) 
+    #append ile diziye ekleme yapıyoruz
+    a.append(int(input()))
+#son olarak ekrana yazdırıyoruz    
+print ("\ndizinin standart sapması: %0.3f"%statistics.pstdev(a))
+print ("dizinin varyansı : %0.3f"%statistics.pvariance(a))
