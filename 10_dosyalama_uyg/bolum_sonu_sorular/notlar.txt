@@ -1,0 +1,4 @@
+Hatice 	85
+Mehmet 	98
+Cansu	74
+Kızıl	56
