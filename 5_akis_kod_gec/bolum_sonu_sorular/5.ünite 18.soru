@@ -1,0 +1,11 @@
+SORU: Kod yazarken hangi tür komutların kullanımından kaçınılmalıdır?
+
+CEVAP:
+1)İsimlendirmeler sayı ile başlatılmamalı
+
+2)İsimde yanlış bilgilendirmeler vermek
+
+3)Girintiler ve Boşluklara dikkat edilmeli
+
+4)Kodların Sınıflara ve Fonksiyonlara Bölünmesi(public,private gibi)
+
