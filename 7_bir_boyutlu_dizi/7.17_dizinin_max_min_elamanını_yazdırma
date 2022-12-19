@@ -1,0 +1,10 @@
+#örnek 7.17
+#Dizinin en büyük-en küçük elamanları ve bu elamanların kaçıncı sırada olduğunu bulan program(maksimum-minimum problemi)
+#Dizinin kaç elaman olacağının sayısını giriniz
+A= [] ; N=int (input("dizinin eleman sayısını giriniz:"))
+for i in range (N):
+    print ("A(%d)="%(i+1),end='' )
+    A.append(eval(input()))
+#dizinin en küçük ve en büyük elamanını yazdırma
+print ("\ndizinin en büyük elamanı : %d"%max(A))
+print ("dizinin en küçük elemanı : %d"%min(A))
