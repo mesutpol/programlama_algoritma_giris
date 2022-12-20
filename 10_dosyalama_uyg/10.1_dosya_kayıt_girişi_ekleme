@@ -1,0 +1,7 @@
+#sıralı erişimli dosya-kayıt girişi/ekleme
+dosya=open("rehber.txt","a")
+ad=input("ad-soyadı:") #Kullanıcıdan ad-soyad isteme
+adres=input("adersi:") #Kullanıcıdan adres isteme
+tel=input("telefonu:") #Kullanıcıdan telefon numarası isteme
+dosya.write("ad+\t"+adres+"\t"+tel+"\n") #istenen değerleri dosyaya yazdırma
+dosya.close()
