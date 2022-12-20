@@ -1,0 +1,18 @@
+#kullanıcıdan 3 adet sayı istiyoruz
+sayi1=int(input("1.sayıyı gir:"))
+sayi2=int(input("2.sayıyı gir:"))
+sayi3=int(input("2.sayıyı gir:"))
+#sayı1 ve sayı2 yi karşılaştırıyoruz
+if sayi1>sayi2:
+#iç içe else if yapıları ile sayı1 ve sayı3 yi karşılaştırıyoruz eğer 1 büyük ise ekrana yazar
+    if sayi1>sayi3:
+        print("en büyük sayı:",sayi1)
+#değilse sayı3 ü ekrana yazar
+    else:
+        print("en büyük sayı:",sayi3)
+#eğer yukarıdakilerde değil ise sayı2 ve sayı3 ü karşılaştırıyouz
+elif sayi2>sayi3:
+#sayı2 büyük ise ekrana yazar değil ise sayı3 ü ekrana yazdırıyoruz
+    print("en büyük sayı:",sayi2)
+else:
+    print("en büyük sayı:",sayi3)
