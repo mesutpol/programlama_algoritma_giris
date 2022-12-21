@@ -1,0 +1,10 @@
+soru=değişken nedir? programlarda neden değişkenlere ihtiyaç duyulmaktadır?
+
+soru=değişken nedir?
+
+cevap=Bir sistemin işletilmesi esnasında, bir deneyin gidişatı doğrultusunda, değişebilir olan değerlerin niceliğini ifade eder.
+
+soru=programlarda neden değişkenlere ihtiyaç duyulmaktadır?
+
+cevap= Eğer değişkenler olmasaydı programlama yaparken tüm olasılıkları tek tek yazmak zorunda kalırdık.
+Değişkenler sayesinde hem zaman kazanabiliriz hem de hata olasılığı daha düşük seviyelerde olur.
