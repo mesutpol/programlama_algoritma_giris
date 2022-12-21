@@ -1,0 +1,11 @@
+soru1.4:örnek1
+a=-1,b=7,c=4,d=2 ve e=6 değerleri için aşağıdaki üç ifadenin sonuçlarını hesaplayınız?
+örnek1:a+c/d+e^2+c+e+d/(b-e)^(1/2)
+cevap:-14
+
+örnek2:
+(a+b+c)/d+(d-e)^2+(c+e+d)/(b-e)^(1/2)
+cevap2:33
+
+örnek3:(a+b)+c/d+d-e^2+c+e+d/b-e^1/2
+cevap3:-18.72
