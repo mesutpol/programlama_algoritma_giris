@@ -1,0 +1,5 @@
+#sıralı erişimli dosya kayıt-listeleme
+dosya=open("rehber.txt","r") #dosyayı açma 
+for satir in dosya: #dosyayı listeleme
+    print(satir,end='') #dosyayı yazdırma
+dosya.close()
