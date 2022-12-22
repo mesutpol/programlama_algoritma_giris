@@ -1,0 +1,30 @@
+SORU5:BÖLÜM SONU SORUSU
+A=5,B=6,C=7 VE D=8 için aşağıdaki ifadelerin sonuçlarını "doğru(1)" veya "yanlış(0)"olarak bulunuz.
+
+ÖRNEK1:(A>B) ve (c<d)
+SONUÇ:0
+#a değeri b değerinden büyük olmadığı için yanlış olarak (0) olur diğer işlemde c değeri d değerinden küçük olduğu için değeri doğru olur yani(1)'dir daha sonra VE işlmi önermede bir yanlış bir doğru olunca sonucu 0 olur.
+
+ÖRNEK2:(A<B) VE ((C<=D)VEYA(A>D))
+SONUÇ:0
+#ilk ifadede a'nın değeri b'den küçük olduğu için önerme doğru(1),ikinci parantezdeki ifadede ilk parantezde önerme yanlış(0) ikinci parantezde a değeri b değerinden büyük olmadığı için önerme yanlış(0) bulunan değerleri veya ile işleme sokunca sonuç 0 ilk ifadedeki parantezde önerme değeri 1'di son olarak VE ile işleme sokunca iki parantezdeki değerleri sonuç 0 olarak bulunur.
+
+ÖRNEK3:((D>B VEYA (C>A)) VE ((A<C) VEYA (C>D))
+SONUÇ:1
+#ilk büyük parantezde çıkan iki tane doğru(1) değerini veya ile işleme sokunca sonuç 1 çıkıyor.Diğer büyük parantezde ise ilk ifade doğru(1) diğer ifade yanlış(0) veya işleme sokunca sonuç yine 1 çıkıyor son olarak iki büyük parantezden çıkan değerleri VE ile işleme sokunca sonuç doğru(1) çıkıyor.
+
+ÖRNEK4:((D<=B) VEYA (A>C)) VE ((DEĞİL(A>D)) VEYA (B>C))
+SONUÇ:1
+#İlk büyük parantezin içindeki ilk küçük parantezin değeri yanlış(0),ikinci küçük parantezin değer yanlış(0),iki yanlış değeri veya ile işleme sokunca sonuç yanlış (0) oluyor.ikinci büyük parantezin ilk küçük parantezde sonuç doğrunun değili olduğu için sonucu yanlış(0) oluyor ikinci parantezde sonuç yanlış oluyor(0) iki yanlışı veya ile işleme sokunca sonuç yanlış(0) olur.son işlem olarak ta iki çıkan değeri VE ile işleme sokunca sonuç yanlış (0) oluyor.
+
+
+ÖRNEK5:DEĞİL(DEĞİL(DEĞİL(C>D)))
+SONUÇ:1
+#en küçük parantezden işleme başlayınca ifadenin değeri yanlış(0) oluyor daha sonra sırasıyla değillerini alınca en sonda ifadenin değilini alınca sonuç doğru(1) oluyor.
+
+ÖRNEK6:DEĞİL((A>B) VEYA (B>D)) VEYA (A>D)
+SONUÇ:1
+#işlemin ilk parantezinde sonuç yanlış(0) ikinci parantezinde sonuç yine yanlış oluyor(0) iki sonucu VEYA ile işleme sokunca sonuç sıfır değilini alınca sonuç doğru(1) oluyor.diğer paranteze geçince sonuç yanlış (0) son olarak bir doğru ve bir yanlış değeri veya ile işleme sokunca sonuç doğru(1) oluyor.
+
+ÖRNEK7:DEĞİL(DEĞİL((A<D) VE (DEĞİL(C>B))) VE (DEĞİL(A>=C))
+SONUÇ:ilk büyük parantezi çözmeye başlayınca iki tane doğru(1) ifadeyi ve ile işleme sokunca çarpma işlemi gibi düşünüp sonuç doğru oluyor(1) daha sonra çıkan sonucun iki kere değilini alınca kendisini veriyor daha sonra diğer parantezi çözmek istersek parantez içindeki ifade değilini alınca sonuç yanlış(0) oluyor iki büyük parantezden çıkan bir doğru(1) ve bir yanlışı(0) VE ile işleme sokunca sonuç yanlış oluyor(0).
