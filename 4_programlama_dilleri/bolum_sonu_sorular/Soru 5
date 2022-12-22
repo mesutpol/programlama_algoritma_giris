@@ -1,0 +1,4 @@
+Soru 5). Fazla veri tipi bir programlama dili için avantaj mıdır?
+Eğer farklı veri tipleri olmasaydı bütün büyüklekti verileri alabilecek bir veri tipi olacaktı.
+Mesela "integer" veri tipi "double" veri tipnden küçüktür.Eğer küçük bir tamsayı kullanılacaksa neden "double" kullanılsın?Neden küçük bir karakter için "double" veri tipinin ayırtdığı kadar hafızada yer ayrılsın?
+Bu sebeplerden dolayı fazla veri tipi avantajdır.
