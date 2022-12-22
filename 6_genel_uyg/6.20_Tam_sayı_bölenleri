@@ -1,0 +1,15 @@
+#Soru: klavyeden girilen pozitif tamsayının bölenleri hesaplayan program
+
+#cevap:
+
+#kullanıcıdan sayı istiyoruz
+tam_sayi=int(input("Pozitif tam sayı giriniz: "))
+#önce ekrana düzenli gözükmesi için bu mesajı yazdırıyoruz
+print("%d Tamsayısının tam bölenleri: "%tam_sayi)
+#sonra döngü ile i ye atayıp tam_sayi yi 1 atırıyoruz
+for i in range(1,tam_sayi+1):
+# eğer kalan 0 a eşitse ekrana böleni yazdırıyoruz
+    if(tam_sayi%i==0):
+        print("%d"%i)
+
+
