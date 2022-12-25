@@ -9,3 +9,7 @@
 - [Örnek 8.6](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_6_kare_matris_yedek_kosegen.py)
 - [Örnek 8.7](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_7_kare_matris_ikinci_satir.py)
 - [Örnek 8.8](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_8_kare_matris_tum_elemanlari.py)
+## 2. Metin Ekranı Uygulamaları (Sayfa 527)
+## 3. Görüntü İşleme Uygulamaları (Sayfa 534)
+## 4. Karma Uygulamaları (Sayfa 547)
+## SORULAR (Sayfa 554)
