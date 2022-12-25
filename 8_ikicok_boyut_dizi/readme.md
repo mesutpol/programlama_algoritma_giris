@@ -1,2 +1,11 @@
-# test!
-hmm
+# Bölüm 8: Çok boyutlu dizi uygulamaları 
+(Sayfalar 481-558)
+## 1. Temel İşlemler (Sayfa 484)
+- [Örnek 8.1](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_1_kare_matris.py)
+- [Örnek 8.2](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_2_kare_matris_yazdir.py)
+- [Örnek 8.3](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_3_kare_matris_sifir.py)
+- [Örnek 8.4](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_4_kare_matris_top.py)
+- [Örnek 8.5](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_5_kare_matris_izi.py)
+- [Örnek 8.6](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_6_kare_matris_yedek_kosegen.py)
+- [Örnek 8.7](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_7_kare_matris_ikinci_satir.py)
+- [Örnek 8.8](https://github.com/mesutpol/programlama_algoritma_giris/blob/main/8_ikicok_boyut_dizi/8_8_kare_matris_tum_elemanlari.py)
