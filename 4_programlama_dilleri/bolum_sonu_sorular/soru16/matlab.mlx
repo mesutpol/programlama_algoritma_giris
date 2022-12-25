@@ -1,0 +1,2 @@
+str = input('Isminizi Giriniz :','s');
+disp(str)

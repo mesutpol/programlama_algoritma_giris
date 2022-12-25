@@ -1,0 +1,2 @@
+Soru: Neden programlama dillerinde farklı veri tiplerine ihtiyaç duyulmuştur?
+Cevap: Farklı veri tipleri olmasaydı bütün büyüklükler için tek bir veri tipi olacaktı. Büyük tam sayılar için hafızada fazla yer kullanmak mantıklıdır fakat küçük tam sayılar için tek bir veri tipinde gereğinden fazla hafızada yer kaplaması mantıksız olur. Bu yüzden küçük tam sayılara uygun hafızada az yer edinen veri tipleri, büyük tam sayılar için ise hafızada uygun yer edinecek veri tipleri ortaya çıkmıştır.

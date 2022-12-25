@@ -1,0 +1,4 @@
+Soru: Programlarda neden "alt program" kullanılır?
+Cevap:
+Alt programlar hızlı kullanım için kullanılır. Sürekli aynı fonksiyonu tanımlarken oluşacak zaman kaybından kurtuluruz. Aynı işlem adımlarını birden fazla kez tekrarlamak, programın yavaş işlemesini sağlar. Alt programlar ile birlikte bu yavaş işlemden ve zaman kaybından kurtulmuş oluruz.
+

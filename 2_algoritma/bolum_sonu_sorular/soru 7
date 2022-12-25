@@ -1,0 +1,20 @@
+
+# girilen 3 sayıdan en büyüğünü bulup yazdıran algoritma
+
+
+# DEĞİŞKENLER
+S = Birinci sayı x
+M = İkinci sayı y
+T = Üçüncü sayı z
+Max = En büyük değerdir.
+
+# ALGORİTMA
+Adım 1 = Başla
+Adım 2 = S oku
+Adım 3 = M oku
+Adım 4 = T oku
+Adım 5 = s > = m ve s > = t ise s e maximun değer ver ve 8. adıma git.
+Adım 6 =  m > = s ve m > = t ise m ye maximun değer ver ve 8. adıma git.
+Adım 7 = T ye maximun değer ver ve 8. adıma git.
+Adım 8 = max değerini yazdır.
+Adım 9 =  Bitir.
