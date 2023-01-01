@@ -1,0 +1,30 @@
+Algoritma nedir? Algoritmanın gerekliliğini ve avantajlarını  acıklayınız.
+
+Algoritma Nedir? 
+Bilgisayar üzerinde bir işlemin yapılabilmesi için bir planlama yapılması ve bu planın için gerekli olan bütün adımların belirlenmesi gerekir.
+Bu planlamanın terimsel ifadesi ise algoritmadır. Diğer bir ifadeyle ise bazı işlemleri yapması için bilgisayara iletilen işlem basamakları olarak da açıklanır.
+Oldukça karmaşık duran bu konu, aynı zamanda bilgisayar üzerinde olmazsa olmaz sistemlerden biridir.
+Bir problemin çözülmesi için geliştirilen Algoritma;
+
+Açık,
+Yürütülebilir,
+Sıralı,
+Basit,
+Tekrarlanan adımlardan oluşur.
+
+  Algoritma Neden Gereklidir?
+ Hazırlanan algoritmalar hem metin şeklinde, hem sözde kodlar hem de geometrik şekillerde gösterilmektedir.
+ Algoritma nedir, sorusunun cevabının iyi bir şekilde anlaşılabilmesi için algoritmanın ne işe yaradığı konusunda bilgi sahibi olunması gerekir. 
+ Hazırlanan başarılı bir algoritma sayesinde;
+  Program yazmak kolaylaşır.
+Hatalı kodlama oranı asgari düzeye iner.
+Programın işlem akışı görülür. Böylece program kontrolü kolaylaşır.
+Program yazımı pratik hale geldiği için zaman sarfiyatı olmaz.
+Sonradan programa ekstra özellik eklenmesi kolaylaşır.
+Program hızlı bir şekilde çalışır.
+Yazılan program bellekte fazla yer kaplamamalıdır.
+
+  Algoritmanın amacı nedir?
+  Algoritma, basit bir problemin nasıl bir yol izlenerek çözüleceği hususunda bize yardımcı olmaktadır. 
+  Algoritma hazırlamanın diğer bir faydası ise program yazarken yapmak istediğimiz işe bütüncül bakarak en sade haliyle yapılmasına olanak sağlamasıdır.
+  Algoritmanın basit bloklardan oluşan kendine has bir dili vardır.
