@@ -3,7 +3,11 @@
 
 <img src="https://cdn.seckin.com.tr/f/seckin/kitap/347635484587634/9789750259531.jpg" width=40% height=40%>
 
-**Algoritma ve Programlamaya Giriş** dersi için **Fahri Vatansever kitabından örnekler** verilerek öğrencilerin yıl boyunca kitaptaki örneklerin kullanımı kolaylaştırmak ve bu örnekleri uygulayarak paylaşmaları amaçlanmıştır.
+**Algoritma ve Programlamaya Giriş** dersi için **Fahri Vatansever kitabından örnekler** verilerek 
+öğrencilerin yıl boyunca kitaptaki örneklerin kullanımı kolaylaştırmak ve 
+bu örnekleri uygulayarak paylaşmaları amaçlanmıştır.
+Lütfen ilgili yıla ait olan branch içerisinde örneğin 2023 yılında okula başlayan öğrenciler dev_2023
+branch içerisinde değişiklikleri yapacak ve öyle pull request göndereceklerdir.
 
 ## İçindekiler
 - [Bölüm 1  PROGRAMLAMAYA GİRİŞ](https://github.com/mepol58/programlama_algoritma_giris/tree/main/1_programlamaya_giris)
