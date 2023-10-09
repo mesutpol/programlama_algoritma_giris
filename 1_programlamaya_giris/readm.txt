@@ -1,1 +1,2 @@
 buraya ilk ünite içinde yer alan uygulama ve örnekler konulacak.
+Her örnek için örnek numrasý veörnek isimli dosya eklenecek.
