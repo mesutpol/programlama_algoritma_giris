@@ -1,1 +1,0 @@
-print("oy asiye oy")
