@@ -15,7 +15,7 @@ print("1 = A ^ 1/2 + B ^ 1/2\n"
     "7 = (A ^ (1/2) + B) ^ (1/2)\n"
     "8 = (A + B) ^ (1/2)\n")
 
-ifade=input("Sonucu öğrenmek istediğiniz ifadenin numarasını giriniz: ")       # Kullanıcının istediği ifadeyi alıyoruz.
+ifade=input("Sonucunu öğrenmek istediğiniz ifadenin numarasını giriniz: ")       # Kullanıcının istediği ifadeyi alıyoruz.
 
 if ifade == "1":       # Kullanıcı 1.ifadeyi seçmişse bu komut çalışacaktır.
     
