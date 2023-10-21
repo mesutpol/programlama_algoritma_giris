@@ -43,7 +43,7 @@ elif ifade == "6":     # Kullanıcı 6.ifadeyi seçmişse bu komut çalışacakt
     
 elif ifade == "7":     # Kullanıcı 7.ifadeyi seçmişse bu komut çalışacaktır.
     
-    print("Seçtiğiniz ifadenin sonucu: {}".format(A ** (0.5) + B) ** (0.5))    # 7.ifadenin cevabını yazdırır.
+    print("Seçtiğiniz ifadenin sonucu: {}".format((A ** (0.5) + B) ** (0.5)))    # 7.ifadenin cevabını yazdırır.
     
 elif ifade == "8":     # Kullanıcı 8.ifadeyi seçmişse bu komut çalışacaktır.
     
