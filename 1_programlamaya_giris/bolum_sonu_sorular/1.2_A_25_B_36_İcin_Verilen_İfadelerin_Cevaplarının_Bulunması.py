@@ -49,9 +49,9 @@ elif ifade == "8":     # Kullanıcı 8.ifadeyi seçmişse bu komut çalışacakt
     
     print("Seçtiğiniz ifadenin sonucu: {}".format((A+B) ** (0.5)))             # 8. ifadenin cevabını yazdırır.
     
-else:
+else:                  # Geçerli olan değerlerden farklı bir değer girilirse bu komut çalışacaktır.
     
-    print("Lütfen geçerli bir değer giriniz!")
+    print("Lütfen geçerli bir değer giriniz!")                                 # Kullanıcıdan geçerli bir değer girmesini ister.
 
 
 
