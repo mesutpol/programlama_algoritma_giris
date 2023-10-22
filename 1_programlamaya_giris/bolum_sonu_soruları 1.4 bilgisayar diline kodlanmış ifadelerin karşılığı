@@ -1,7 +1,7 @@
 Bilgisayar diline kodlanmış aşağıdaki ifadelerin matematiksel kaarşılıklarını yazınız.
 
 1)y=(A+B)/(C*D)+A^1/2*B 
-Y = (A + B) / (C * Dhttps://github.com/HamzaCelikk/programlama_algoritma_giris/settings) + √A * B
+Y = (A + B) / (C * D + √A * B
 
 2)y= A+B/C*D + A^1/(2*B)
 Y = A + (B / (C * D)) + (A^(1/2) / B)
