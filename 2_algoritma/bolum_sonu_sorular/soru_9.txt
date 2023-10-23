@@ -1,0 +1,17 @@
+1: Başla.
+
+2: tektop,tekçarpım,çifttop,çiftçarpım,döngü=1;
+
+3: Döngüyü başlat (döngü<99)
+
+4: EĞER döngü%2==0 ise çifttop+=döngü ve çiftçarpım*=döngü işlemini yap.
+
+5: EĞER  döngü%2==1 ise tektop+=döngü ve tekçarpım*=döngü işlemini yap.
+
+6: döngü++.
+
+7: döngü<99 ise Adım 4'e git.
+
+8: Ekrana "Tek sayıların toplamı:tektop, tek sayıların çarpımı:tekçarpım, Çift sayıların toplamı:çifttop, çift sayıların çarpımı:çiftçarpım" yaz.
+
+9: Bitir.
