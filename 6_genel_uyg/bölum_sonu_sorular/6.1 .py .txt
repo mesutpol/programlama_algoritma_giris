@@ -1,0 +1,9 @@
+sayi
+
+kare=sayi*sayi
+kupu=sayi*sayi*sayi
+karekoku=sayi**0.5
+
+print(kare)
+print(kupu)
+print(int(karekoku))
