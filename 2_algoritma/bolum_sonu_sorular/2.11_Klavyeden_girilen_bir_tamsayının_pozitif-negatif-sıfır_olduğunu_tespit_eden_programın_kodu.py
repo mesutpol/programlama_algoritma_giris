@@ -1,3 +1,12 @@
+#Algoritması:
+# 1- Başla
+# 2- Kullanıcıdan bir tam sayı iste
+# 3- sayı eğer > 0 ise pozitif yaz
+# 4- sayı eğer < 0 ise negatif yaz
+# 5- sayı eğer = 0 ise sayı sıfırdır yaz
+
+
+
 #Klavyeden girilen bir tamsayının pozitif, negatif veya sıfır olduğunu tespit eden programın kodu
 sayi = int(input("Sayı giriniz: "))# kullanıcadan sayı girmesini istedik#
 
