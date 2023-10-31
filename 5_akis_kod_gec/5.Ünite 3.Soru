@@ -1,0 +1,93 @@
+Soru 3 :
+Merhabalar bu örnekler bu şekildedir örnekleri Vs studio veya pyCharm üzerinden deniyebilirsiniz çalışmayan kodlar için bize ulaşın.
+
+-C,C++,C#,Java,MATLAB ve Python programlama dilindeki döngü komutlarını karşılaştırınız?
+
+Her bir dilde döngü komutlarının farklı sentaksı ve kullanımı olabilir.
+
+-C , C++ , C# , Java programlama dillerinde üç ortak döngü yapısıda bulunmaktadır ; while , for , do-while ' olmak üzere.
+
+1.C---------------------------------------------------------------------------------------------------------------------------------------
+
+C dili C++ aynı döngü yapılarını kunlanır fakat C++ ' ta for döngüsü daha fazla özellik içerebilir.
+
+FOR döngüsü :
+
+for (int i = 0; i < 5; i++) {
+    // Döngü içinde yapılacak işlem
+}
+
+WHİLE Döngüsü : 
+
+int i = 0;
+while (i < 5) {
+    // Döngü içinde yapılacak işlem
+    i++;
+}
+
+DO-WHİLE Döngüsü :
+
+int i = 0;
+do {
+    // Döngü içinde yapılacak işlem
+    i++;
+} while (i < 5);
+
+
+
+C# ve Java , C# ve Java birbiri ile benzer döngülere sahiptir.-----------------------------------------------------------------------------
+
+FOR Döngüsü : 
+
+for (int i = 0; i < 5; i++) {
+    // Döngü içinde yapılacak işlem
+}
+
+WHİLE Döngüsü : 
+
+int i = 0;
+while (i < 5) {
+    // Döngü içinde yapılacak işlem
+    i++;
+}
+
+DO-WHİLE Döngüsü :
+
+int i = 0;
+do {
+    // Döngü içinde yapılacak işlem
+    i++;
+} while (i < 5);
+
+MATLAB -----------------------------------------------------------------------------------------------------------------------------------
+
+FOR Döngüsü :
+
+for i = 1:5
+    % Döngü içinde yapılacak işlem
+end
+
+WHİLE Döngüsü : 
+
+a = 1;
+while a < 6
+    disp(a);
+    a = a + 1;
+end
+
+PYTHON -------------------------------------------------------------------------------------------------------------------------------
+
+FOR Döngüsü :
+
+for i in range(5):
+    # Döngü içinde yapılacak işlem
+
+WHİLE Döngüsü : 
+
+i = 1
+while i < 5:
+  print(i)
+  i += 1
+
+
+  Örnekler bu kadardı.
