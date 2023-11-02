@@ -1,0 +1,28 @@
+Pyhton programlama dilindeki "for" döngü yapısını "while" ile gerçekleyiniz.
+
+
+"for" döngüsü, genellikle bir iterable (örneğin, liste, demet, dize) üzerinde dolaşmak için kullanılırken,
+"while" döngüsü belirli bir koşul doğru olduğu sürece çalışır.Bu nedenle, bir "for" döngüsünün "while" ile 
+gerçeklenmesi için bir sayaç kullanmalı ve her döngü adımında bu sayaçı güncellemelisiniz.
+
+# Bir liste üzerinde "for" döngüsü kullanımı
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item)
+
+# Aynı işlemi "while" döngüsü ile gerçekleştirme
+my_list = [1, 2, 3, 4, 5]
+index = 0  # Sayaç
+while index < len(my_list):
+    item = my_list[index]
+    print(item)
+    index += 1
+
+bir liste üzerindeki her öğeyi sırayla işleyen bir "for" döngüsünün "while" döngüsü ile nasıl gerçeklenebileceğini göstermektedir. 
+"index" adlı bir sayaç kullanarak her adımda listenin bir sonraki öğesine geçeriz ve koşulu kontrol ederiz (index < len(my_list)).
+
+Bu örnek, "for" döngüsünü "while" döngüsüyle nasıl değiştirebileceğinizi gösterir, ancak "for" döngüsü daha basit ve okunaklı bir yol 
+sağlar ve tipik olarak tercih edilir. "while" döngüsü, belirli koşullara dayalı daha karmaşık durumlar için daha uygundur.
+
+# Bertu Emir Deler tarafından
+# 2.11.2023 tarihinde
