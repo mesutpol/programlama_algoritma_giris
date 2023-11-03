@@ -1,0 +1,52 @@
+
+ Bilgisayar terminolojisinde kullanılan nesne, sınıf, yapı, ağaç, fonksiyon, miras vb. terimlerin anlamlarını araştırınız.
+
+>  Nesne (Object):
+
+-  Programlama dilinde bir veri yapısını veya nesneyi ifade eder.
+
+-  Nesneler, veri ve onun üzerinde işlem yapabilen metotları (fonksiyonları) içerebilir.
+
+-  Nesne yönelimli programlamada (OOP), nesneler, bir sınıfın örnekleridir ve veri ve işlevselliği bir arada tutar.
+
+>  Sınıf (Class):
+
+-  Nesne yönelimli programlamada (OOP), sınıflar nesnelerin şablonlarını tanımlayan yapıları ifade eder.
+
+-  Bir sınıf, bir nesnenin sahip olabileceği veri ve işlevleri (metotları) tanımlar.
+
+-  Nesneler, bir sınıfın örnekleridir ve sınıf, nesnelerin nasıl oluşturulacağını belirler.
+
+>  Yapı (Structure):
+
+-  Programlama dillerinde, farklı veri türlerini (örneğin, int, char, double gibi) içeren bir veri yapısıdır.
+
+-  Yapılar, farklı veri öğelerini bir araya getirerek karmaşık veri yapıları oluşturmanıza olanak tanır.
+
+>  Ağaç (Tree):
+
+-  Bilgisayar biliminde, ağaç bir hiyerarşik veri yapısıdır.
+
+-  Ağaç yapısı, bir kök düğüm ve bu düğüme bağlı alt düğümlerden oluşur.
+
+-  Ağaç yapısı verilerin organize edilmesi, sorgulanması ve temsil edilmesi için kullanılır.
+
+>  Fonksiyon (Function):
+
+-  Programlama dillerinde, bir görevi yerine getiren bağımsız bir kod parçasını ifade eder.
+
+-  Fonksiyonlar, belirli bir işlemi gerçekleştirmek için girdi alabilir ve çıktı üretebilir.
+
+-  Fonksiyonlar, kodun yeniden kullanılabilirliğini artırır ve kod karmaşıklığını azaltır.
+
+> Miras (Inharitage):
+
+-  Nesne yönelimli programlamada (OOP), bir sınıfın diğer bir sınıftan özelliklerini ve işlevselliğini devralma yeteneğini ifade eder.
+
+-  Miras, kodun tekrar kullanılabilirliğini artırır ve sınıf hiyerarşilerini oluşturmanıza olanak tanır.
+
+>>> Bu terimler, bilgisayar bilimlerinde ve programlamada yaygın olarak kullanılan kavramlardır ve bu temel kavramları 
+anlamak, programlama ve yazılım geliştirme süreçlerinde önemlidir.
+
+# Bertu Emir Deler tarafından
+# 3.11.2023 tarihinde
