@@ -1,0 +1,56 @@
+
+     C, C++, C#, Java, Pyhton, MATLAB dillerini temel özellikleri bakımından kıyaslayınız.
+
+> C : 
+
+-  Yüksek performanslı bir dildir ve donanım düzeyine yakın programlama yapma yeteneğine sahiptir.
+
+-  Düşük seviye bellek yönetimi gerektirir, bu nedenle hatalar daha kolay oluşabilir.
+
+-  Geniş bir standart kütüphane sunar ve taşınabilirliği yüksektir.
+ 
+>  C++ :
+
+-  C'nin özelliklerini korurken, nesne yönelimli programlamayı (OOP) destekler.
+  
+-  OOP, veri ve işlevleri sınıflara ve nesnelere bölme yeteneği sunar.
+  
+-  C++ aynı zamanda standart kütüphane ile zengindir.
+
+>  C# :
+
+-  Microsoft tarafından geliştirilmiş bir dildir ve genellikle Windows uygulamaları için tercih edilir.
+
+-  Tamamen nesne yönelimli ve Microsoft .NET platformunu destekler.
+
+-  Modern, güvenli ve hızlı geliştirme imkanı sunar.
+
+>  JAVA :
+
+-  Platform bağımsız bir dil olarak bilinir, "write once, run anywhere" (bir kere yaz, her yerde çalıştır) felsefesine sahiptir.
+
+-  Güçlü bir hata denetimi ve güvenlik modeli sunar.
+
+-  Nesne yönelimli ve geniş bir kütüphane desteğine sahiptir.
+
+>  PYHTON :
+
+-  Kolayca okunabilir ve öğrenilebilir bir dil olarak bilinir.
+
+-  Yüksek seviyeli bir dil olup, veri analizi, yapay zeka, web geliştirme ve bilimsel hesaplama gibi birçok alanda kullanılır.
+
+-  Geniş bir üçüncü taraf kütüphane ekosistemi vardır.
+
+>  MATLAB :
+
+-  Bilimsel hesaplama ve veri analizi için özel olarak tasarlanmıştır.
+
+-  Vektör ve matris işlemleri için optimize edilmiştir.
+
+-  MATLAB dilinde yazılan programlar hızlı prototiplemeye olanak tanır.
+
+>>> Bu dillerin tercihi, projenin gereksinimlerine, performans ihtiyacına, platforma ve kişisel tercihlere bağlıdır. Her dilin 
+avantajları ve dezavantajları vardır, bu nedenle proje gereksinimlerinizi dikkate alarak en uygun dil seçilmelidir.
+
+# Bertu Emir Deler tarafından
+# 3.11.2023 tarihinde
