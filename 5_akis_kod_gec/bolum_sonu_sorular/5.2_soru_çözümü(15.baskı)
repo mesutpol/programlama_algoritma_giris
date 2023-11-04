@@ -1,0 +1,37 @@
+Soru.2 = C,C++,C#,Java,MATLAB ve Python programlama dilindeki ekrana yazdırma komutlarını karşılastırınız. 
+
+C = 
+main() {
+printf("Hello World"); return 0;
+}
+C++ =
+
+#include <iostream>
+ 
+int main()
+{
+    std::cout << "Hello, world!\n";
+}
+
+C# =
+using System;
+class HelloWorld {
+  static void Main() {
+    Console.WriteLine("Hello World");
+  }
+}
+Java =
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+MATLAB= 
+disp('Hello World')
+
+Python= 
+print("Hello World")  
+
+#Sultan Ateş 
+#04.11.2023
