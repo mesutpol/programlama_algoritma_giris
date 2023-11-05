@@ -1,5 +1,5 @@
 #Veri tiplerinin sınırları değiştirilebilir mi?Tip sıfatlarını yazınız.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 İlkel veri tiplerinin sınırları değiştirilemez. Bunlar, bunları programlama dili tarafından kaydedilen sabit değerlerdir.
 
 Ancak veri yapılarını ve öğelerini kullanarak daha büyük parçalar ve veri bütünlüklerini görebilirsiniz. Bu nedenle, örneğin bir intdeğişkenin 2 milyardan fazla tutamayacağı, longdeğişkeni kullanarak bu kadar genişleyebilir.
