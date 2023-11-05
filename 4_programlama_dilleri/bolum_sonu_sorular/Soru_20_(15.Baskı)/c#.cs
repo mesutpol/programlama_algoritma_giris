@@ -1,6 +1,6 @@
 //Kodu geliştiren Oğuzhan Demirbaş
 //Geliştirilme tarihi 5.11.2023
-//Geliştirilme amacı :6 Dilde aynı algoritmayı çalıştırarak arasıdnaki farkları görmek
+//Geliştirilme amacı :6 Dilde aynı algoritmayı çalıştırarak arasındaki farkları görmek
 
 using System;
 
