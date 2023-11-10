@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[12]:
-
-
 #Kodu yaza Oğuzhan Demirbaş
 #Kodun yazım tarihi 10.11.2023
 
@@ -25,15 +19,6 @@ elif(t>0 and t<=100):
 elif(t>100):
      print("Girdiğiniz değere göre madde 'GAZ' halde")#Eğer sıcaklık 100'den büyükse, maddenin "GAZ" olduğu yazdırılır.
             
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
