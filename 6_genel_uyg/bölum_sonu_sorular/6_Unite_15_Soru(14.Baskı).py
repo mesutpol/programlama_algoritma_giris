@@ -1,3 +1,6 @@
+#Kodu yazan Oğuzhan Demirbaş
+#Kodu yazma tarihi 12.11.2023
+
 #Boş bir liste oluşturuyoruz.Bu liste,haneleri toplamı tek olan sayıları içerecek.
 Tek_haneli_sayılar_lis = []
 
