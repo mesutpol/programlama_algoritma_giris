@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 #Boş bir liste oluşturuyoruz.Bu liste,haneleri toplamı tek olan sayıları içerecek.
 Tek_haneli_sayılar_lis = []
 
@@ -19,9 +13,6 @@ for Sayı in range(1, 100):
 
 # Sonuçları ekrana yazdırıyoruz.
 print("1 ile 99 arasındaki haneleri toplamı tek olan sayılar:", Tek_haneli_sayılar_lis)
-
-
-# In[ ]:
 
 
 
