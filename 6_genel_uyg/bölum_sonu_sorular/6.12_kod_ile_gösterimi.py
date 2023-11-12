@@ -7,5 +7,5 @@ def convert_negative_to_positive(negative_number):
 
 # Örnek kullanım:
 
-negative_number =
-print(convert_negative_to_positive(negative_number))
+'''negative_number = -5
+   print(convert_negative_to_positive(negative_number))'''
