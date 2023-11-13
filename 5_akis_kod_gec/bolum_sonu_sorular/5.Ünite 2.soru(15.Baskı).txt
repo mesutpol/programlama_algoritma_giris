@@ -1,3 +1,6 @@
+#Sultan Ateş
+13.11.2023
+
 C++= #İnclude <iostream>
      using namespace std;
 
