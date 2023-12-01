@@ -14,7 +14,7 @@ namespace _6_Unite_15._Soru_C__
             //Kodu yazan Oğuzhan Demirbaş
             //Kodun yazılma tarihi 26.11.2023
 
-            Console.Write("Bir 'E' değeri girin :");//23.Kod satırına kadar bize soruda verilen değişkenleri kullanıcıdan istedik ve double türüne çevirdik.
+            Console.Write("Bir 'E' değeri girin :");//25.Kod satırına kadar bize soruda verilen değişkenleri kullanıcıdan istedik ve double türüne çevirdik.
             double E = Convert.ToDouble(Console.ReadLine());
             Console.Write("Bir 'R1' değeri girin :");
             double R1 = Convert.ToDouble(Console.ReadLine());
