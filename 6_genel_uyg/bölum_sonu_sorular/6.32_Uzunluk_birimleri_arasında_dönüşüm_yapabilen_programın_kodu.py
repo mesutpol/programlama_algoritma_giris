@@ -1,5 +1,12 @@
 # Uzunluk birimleri arasında dönüşüm yapan program
 
+
+# Kullanıcıdan girişleri al
+mevcut_uzunluk = float(input("Mevcut uzunluk değerini giriniz (km, hm, dam, dm, cm, mm, m): "))
+mevcut_birim = input("Mevcut uzunluk birimini giriniz: ")
+hedef_birim = input("Hedef uzunluk birimini giriniz: ")
+
+
 def uzunluk_donustur(mevcut_uzunluk, mevcut_birim, hedef_birim):
     # Mevcut uzunluk değerini ve dönüştürülecek birimi değişkenlere ata
     if mevcut_birim == "km":
@@ -31,14 +38,11 @@ def uzunluk_donustur(mevcut_uzunluk, mevcut_birim, hedef_birim):
     elif hedef_birim == "mm":
         hedef_uzunluk = mevcut_uzunluk * 1000
 
+   # Dönüşüm işlemini gerçekleştir
+    uzunluk_donustur(mevcut_uzunluk, mevcut_birim, hedef_birim)
+
+    
     # Dönüştürülmüş değeri ekrana yazdır
     print(f"{mevcut_uzunluk} {mevcut_birim} = {hedef_uzunluk} {hedef_birim}")
 
 
-# Kullanıcıdan girişleri al
-mevcut_uzunluk = float(input("Mevcut uzunluk değerini giriniz (km, hm, dam, dm, cm, mm): "))
-mevcut_birim = input("Mevcut uzunluk birimini giriniz: ")
-hedef_birim = input("Hedef uzunluk birimini giriniz: ")
-
-# Dönüşüm işlemini gerçekleştir
-uzunluk_donustur(mevcut_uzunluk, mevcut_birim, hedef_birim)
