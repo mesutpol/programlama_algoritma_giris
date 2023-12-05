@@ -29,6 +29,6 @@ def tahmin_oyunu():
             print(f"**Kelime Yanlış. Kalan haklarınız: {hak}**")
 
         if hak == 0:
-            print(f"**Hakkınız Doldu. Doğru kelime: {kelime}**")  # Tahmin hakkı dolunca eğer kelime doğru tahmin edilmemişse ekrana doğru kelime yazılır.s
+            print(f"**Hakkınız Doldu. Doğru kelime: {kelime}**")  # Tahmin hakkı dolunca eğer kelime doğru tahmin edilmemişse ekrana doğru kelime yazılır.
 
 tahmin_oyunu()
