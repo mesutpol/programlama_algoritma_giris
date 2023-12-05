@@ -1,4 +1,4 @@
-#Bilgisayarın ürettiği rastgele 5 harfli anlamlı veya anlamsız kelimenin tahmin edilme oyunun kodu.
+###Bilgisayarın ürettiği rastgele 5 harfli anlamlı veya anlamsız kelimenin tahmin edilme oyunun kodu.
 
 
 import random  
