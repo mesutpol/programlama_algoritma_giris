@@ -1,0 +1,19 @@
+-----------------------
+Kodu geliştiren Oğuzhan Demirbaş
+Geliştirilme tarihi 5.11.2023
+Geliştirilme amacı :6 Dilde aynı algoritmayı çalıştırarak arasıdnaki farkları görmek
+-----------------------
+
+% Ekranın satır ve sütun sayısını belirleyin
+satir_sayisi = input('Ekranın satır sayısını girin: ');
+sutun_sayisi = input('Ekranın sütun sayısını girin: ');
+
+% '*' karakterleri ile doldurulan bir matris oluşturun
+ekran = repmat('*', satir_sayisi, sutun_sayisi);
+
+% Ekrana yazdırın
+disp(ekran);
+
+---------------------------------------------------------------------------------------------------------------------
+Not:Kullanıcıdan satır ve sütun sayısını girmesini bekler ve ardından bu boyutta bir matris oluşturur. Bu matris,'*' karakterleri ile doldurulur ve disp fonksiyonu kullanılarak ekrana yazdırılır. Bu şekilde, ekran '*' karakterleri ile doldurulmuş olur.
+---------------------------------------------------------------------------------------------------------------------
