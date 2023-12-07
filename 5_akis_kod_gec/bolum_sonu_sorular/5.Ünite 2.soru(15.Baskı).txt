@@ -1,0 +1,50 @@
+#Sultan Ateş
+13.11.2023
+
+C++= #İnclude <iostream>
+     using namespace std;
+
+    int main()
+   {
+       cout  <<"Hello World\n";
+       system("pause");
+       return0;
+   }
+
+#C++ ile ekrana yazı yazdırmak için cout komutu kullanılır.
+Cout komutunu kullanmak için using namespace std; kodu eklenmelidir.
+
+
+C#= Console.WriteLine("Hello World")
+    Console.Write("Hello World")
+
+#C# Console.WriteLine("Hello World") alt alta değişken veya yazı yazılmak istendiğinde kullanılır.
+    Console.Write("Hello World") yan yana değişken ya da yazı yazılmak istendiğinde kullanılır.
+
+
+
+C= #include <studio.h>
+   
+   int main(void)
+   {
+       printf("Hello World\n);
+   }
+
+# C dilinde ekrana yazdırma printf komutu kullanılarak yapılır.
+
+
+java= public class HelloWorld {
+          public static void main(String[] args) {
+              System.out.println("Hello World");
+          }
+      }
+
+# java kodlama diinde System.out.print() tırnak içindeki iafedeyi ekrana yazdırır.
+  System.out.println() tırnak içindeki ifadeyi bir satıra yazdırır.
+  System.out.printf() tırnak içindeki ifadeyi ekrana formatlı bir şekilde yazdırmaya yarar.
+
+
+MATLAB= disp("Hello World")
+
+
+Python= print("Hello World")

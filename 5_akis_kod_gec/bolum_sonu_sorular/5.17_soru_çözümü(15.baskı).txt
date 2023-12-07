@@ -1,0 +1,61 @@
+işlem aktarımı yönlendirmek / değiştirmek için programlama dillerinde neler yapılabilir
+
+
+
+İşlem verimi
+
+1.Koşull
+"eğer
+piton
+Kodu kopyala
+if koşul:
+    # Koşul doğruysa bu blok çalışır
+else:
+    # Koşul yanlışsa bu blok çalışır
+
+
+2.Döngüler
+Dong
+piton
+
+Kodu kopyala
+for öğe in liste:
+    # Liste öğeleri üzerinde işlem yapar
+
+while koşul:
+    # Koşul doğru olduğu sürece bu blok tekrar çalışır
+
+
+3.Fonklar
+Fonksiyonlar, belirli
+piton
+
+Kodu kopyala
+def fonksiyon_adı(parametre1, parametre2):
+    # Fonksiyonun gövdesi
+   return sonuç
+
+
+4.Anahtar Kelimeler (Anahtar Kelimeler):
+Programlama dilleri,
+piton
+Kodu kopyala
+for öğe in liste:
+    if koşul:
+        break  # Döngüyü sonlandırır
+   
+   
+    else:
+       continue  # Döngünün bir sonraki adımına atlar
+
+
+5.Anahtar / Kasa Y
+Bazı programlama dilleri, çoklu seçim
+Örnek olarak,
+
+
+
+İşlem aktarımı yönlendirmek için kullanılabilir
+
+
+

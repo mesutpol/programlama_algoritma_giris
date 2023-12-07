@@ -1,0 +1,12 @@
+Algoritma ile akış diyagramı arasındaki farklar nelerdir? Birbirlerine göre avantaj ve dezavantajlarını açıklayınız.
+Herhangi bir sorunun çözümü için izlenmesi gerekli olan aritmetik ve mantıksal adımların söz veya yazı ile anlatılmasına algoritma.
+Algoritmanın özel geometrik şekillerle çizilmiş gösterimine akış diyagramı denir.
+Akış Diyagramlarının Avantaj ve Dezavantajları
+Avantajları
+Çözümü anlamada geleneksel metot sağlar.
+Dökümantasyon için iyi bir araçtır.
+Kodlama için rehberlik sağlar.
+Dezavantajları
+Büyük problemler için uygun değildir.
+Bazı durumlarda, program mantığı oldukça komplekstir.
+Değişiklik gerektiğinde tüm akış diyagramı yeniden çizilmelidir.
