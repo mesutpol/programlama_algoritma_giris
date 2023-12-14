@@ -23,11 +23,6 @@ namespace _6_Unite_18._Soru__C__
             int Toplam = liste.Sum();
             Console.Write("Toplam :",Toplam);
             Console.ReadKey();
-
-
-
-
-
         }
     }
 }
