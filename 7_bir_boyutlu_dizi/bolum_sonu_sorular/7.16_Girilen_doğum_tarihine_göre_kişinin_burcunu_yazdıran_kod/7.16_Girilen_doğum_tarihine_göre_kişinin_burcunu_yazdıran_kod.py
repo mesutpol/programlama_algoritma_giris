@@ -6,7 +6,7 @@
 #5. Burcu ekrana yazdırın.
 
 
-burçlar = ["Oğlak", "Kova", "Balık", "Koç", "Boğa", "İkizler", "Yengeç", "Aslan", "Başak", "Terazi"]
+burçlar = ["Oğlak", "Kova", "Balık", "Koç", "Boğa", "İkizler", "Yengeç", "Aslan", "Başak", "Terazi", "Akrep", "Yay"]
 
 # Kullanıcıdan doğum tarihini isteyin
 gün = int(input("Doğum gününüzün gününü girin: "))
