@@ -1,3 +1,6 @@
+#Kodu yazan:Ramazan Polat
+#Yazılma tarihi:07.01.2024
+#Klavyeden katsayıları gerilen ax^2+bx+c=0 ikinci dereceden denklemin köklerini a+b+c=0 olması durumunda diskriminant hesaplamadan çözen program.
 a = int(input("a katsayısını giriniz:"))
 b = int(input("b katsayısını giriniz:"))
 c = int(input("c katsayısını giriniz:"))
