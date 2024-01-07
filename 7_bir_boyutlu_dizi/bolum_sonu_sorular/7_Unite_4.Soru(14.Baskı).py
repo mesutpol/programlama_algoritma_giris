@@ -1,5 +1,5 @@
 #Kodu yazan Oğuzhan Demirbaş
-#Kodu yazılma tarihi 06.01.2023
+#Kodu yazılma tarihi 06.01.2024
 
 N=int(input("Kaç elemanlı bir dizi  girmek istiyorsunuz :")) # Kullanıcıdan gireceği eleman sayısını istedik.
 
